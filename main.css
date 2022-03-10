@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 1em;
+  padding: 0.5em;
+  width: 95%;
+  text-align: center;
+}
+.container {
+  width: 25%;
+  height: 15em;
+  margin: 1em auto;
+  background: rgba(218, 216, 216, 0.671);
+  border: 0.2em solid darkblue;
+  /* justify-content: center; */
+  border-radius: 0.5em;
+  /* align-content: center; */
+}
+.container h1,
+#count-el {
+  font-size: 2em;
+  font-weight: bold;
+  margin: 0.5em auto;
+  text-align: center;
+}
+button {
+  border: none;
+  padding-top: 0.2em;
+  color: white;
+  font-weight: bold;
+  width: 33%;
+  margin-top: 0.5em;
+  border-radius: 0.2em;
+  text-align: center;
+}
+
+#increment-btn {
+  background: darkred;
+}
+#save-btn {
+  background: darkgreen;
+}
